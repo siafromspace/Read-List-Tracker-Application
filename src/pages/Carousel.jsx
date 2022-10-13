@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 import Slider from "react-slick";
 import Image from "../assets/books.svg"
 import "slick-carousel/slick/slick.css"

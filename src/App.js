@@ -12,7 +12,7 @@ import Signup from './pages/Signup';
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-[#f2e5d7] w-screen h-screen m-0 overflow-x-hidden p-4 flex items-center">
+      <div className="bg-bon-jour w-screen h-screen m-0 overflow-x-hidden p-0 md:p-4 flex md:items-center">
         <Routes>
           <Route path="/" element={<Carousel />}></Route>
           <Route path="/home" element={<Home />}></Route>

@@ -1,6 +1,13 @@
+import Navbar from "../components/Navbar";
+
 const New = () => {
     return (
-        <h1>This is a new page</h1>
+        <section className="flex flex-col gap-8 md:flex-row w-full">
+            <Navbar />
+            <main>
+
+            </main>
+        </section>
     );
 }
 
