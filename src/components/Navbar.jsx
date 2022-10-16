@@ -6,7 +6,7 @@ import { useState } from "react"
 const Navbar = () => {
     const [showBtn, setShowBtn] = useState(false)
     return (
-        <nav className=" bg-hibiscus md:h-[90vh] md:my-auto px-6 py-4 md:px-12 md:py-8 md:rounded-3xl flex md:flex-col flex-row md:gap-6 text-3xl text-bon-jour sticky md:relative justify-between md:justify-start">
+        <nav className=" bg-hibiscus md:h-[90vh] md:top-[5vh] px-6 py-4 md:px-12 md:py-8 md:rounded-3xl flex md:flex-col flex-row md:gap-6 text-3xl text-bon-jour sticky bottom-0 justify-between md:justify-start">
             <Link to="/home">
                 <AiFillHome />
             </Link>

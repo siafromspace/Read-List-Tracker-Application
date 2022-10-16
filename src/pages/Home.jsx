@@ -40,7 +40,7 @@ const Home = () => {
     ]
 
     return (
-        <section className="flex flex-col gap-8 md:flex-row w-full">
+        <section className="flex flex-col gap-8 md:flex-row w-full h-full">
             <Navbar />
             <main className="flex justify-center w-full">
                 <div className="flex flex-col gap-8 sm:gap-12 p-4 md:p-0">

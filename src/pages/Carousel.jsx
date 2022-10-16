@@ -6,27 +6,30 @@ import "slick-carousel/slick/slick-theme.css"
 
 const Carousel = () => {
     const sliderSettings = {
-        dots: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        infinite: false
+        infinite: true,
+        dots: true,
     }
     return (
         <section>
             <Slider {...sliderSettings}>
-                <figure>
-                    <img src={Image} alt="" />
-                    <figcaption>Get Started With Biblio</figcaption>
-                </figure>
-                <figure>
-                    <img src={Image} alt="" />
-                    <figcaption>Get Started With Biblio</figcaption>
-                </figure>
-                <figure>
-                    <img src={Image} alt="" />
-                    <figcaption>Get Started With Biblio</figcaption>
-                </figure>
+                <div>
+                    <figure>
+                        <img src={Image} alt="" />
+                        <figcaption>Get Started With Biblio</figcaption>
+                    </figure>
+                    <figure>
+                        <img src={Image} alt="" />
+                        <figcaption>Get Started With Biblio</figcaption>
+                    </figure>
+                    <figure>
+                        <img src={Image} alt="" />
+                        <figcaption>Get Started With Biblio</figcaption>
+                    </figure>
+                </div>
             </Slider>
+            <Link to="/home">Go Home</Link>
         </section>
     );
 }
